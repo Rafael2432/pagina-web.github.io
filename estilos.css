@@ -1,13 +1,13 @@
 body{
     background-color: black;
     color: white;
-    font-family: impact;
     display:flex;
     justify-content: center;
     height: 600px;
     align-items:center;
-    font-size:3.5em;
-   
+    font-family: arial;
+    
+    
 }
 div{
     display:flex;
@@ -17,12 +17,24 @@ div{
     width:70%;
 }
 header{
+    font-size:3em;
     display:flex;
     flex-grow: 1;
+    font-family: impact;
+    justify-content:center;
+    background-color: hotpink;
+    align-items:center;
 }
 section{
     display:flex;
-    flex-grow: 1;
+    flex-grow: 3.5;
+    flex-direction:column;
+    align-items:center;
+}
+
+img {
+height:90px;
+width:200px;
 }
 footer{
     display:flex;
