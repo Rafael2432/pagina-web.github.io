@@ -6,6 +6,8 @@ body {
   height: 550px;
   align-items: center;
   font-family: arial;
+  background-color: black;
+
 }
 div {
   display: flex;
