@@ -7,4 +7,25 @@ body{
     height: 600px;
     align-items:center;
     font-size:3.5em;
+   
 }
+div{
+    display:flex;
+    height: 100%;
+    background-color: grey;
+    flex-direction:column;
+    width:70%;
+}
+header{
+    display:flex;
+    flex-grow: 1;
+}
+section{
+    display:flex;
+    flex-grow: 1;
+}
+footer{
+    display:flex;
+    flex-grow: 1;
+}
+
