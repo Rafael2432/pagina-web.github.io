@@ -37,7 +37,14 @@ height:90px;
 width:200px;
 }
 footer{
+    background-color: sienna;
     display:flex;
     flex-grow: 1;
+    text-align:center;
+    color: black;
+    font-size:25px;
+
+    justify-content:center;
+    align-items: center;
 }
 
